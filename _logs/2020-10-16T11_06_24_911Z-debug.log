@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'react-icons',
+1 verbose cli   'uuid',
+1 verbose cli   '--save'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.18.4
+4 verbose npm-session b4b91ea6ee587353
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData error for react-icons@latest request to https://registry.npmjs.org/react-icons failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+8 warn registry Using stale data from https://registry.npmjs.org/ because the host is inaccessible -- are you offline?
+9 warn registry Using stale data from https://registry.npmjs.org/ due to a request error during revalidation.
+10 http fetch GET 200 https://registry.npmjs.org/uuid 234ms (from cache)
+11 silly fetchPackageMetaData error for uuid@latest request to https://registry.npmjs.org/uuid/-/uuid-8.3.1.tgz failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+12 timing stage:rollbackFailedOptional Completed in 2ms
+13 timing stage:runTopLevelLifecycles Completed in 4201ms
+14 verbose type system
+15 verbose stack FetchError: request to https://registry.npmjs.org/react-icons failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+15 verbose stack     at ClientRequest.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\node-fetch-npm\src\index.js:68:14)
+15 verbose stack     at ClientRequest.emit (events.js:315:20)
+15 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:426:9)
+15 verbose stack     at TLSSocket.emit (events.js:315:20)
+15 verbose stack     at emitErrorNT (internal/streams/destroy.js:92:8)
+15 verbose stack     at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+15 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:84:21)
+16 verbose cwd C:\react\project\budget
+17 verbose Windows_NT 6.1.7601
+18 verbose argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "react-icons" "uuid" "--save"
+19 verbose node v12.18.4
+20 verbose npm  v6.14.6
+21 error code ENOTFOUND
+22 error errno ENOTFOUND
+23 error network request to https://registry.npmjs.org/react-icons failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+24 error network This is a problem related to network connectivity.
+24 error network In most cases you are behind a proxy or have bad network settings.
+24 error network
+24 error network If you are behind a proxy, please make sure that the
+24 error network 'proxy' config is set properly.  See: 'npm help config'
+25 verbose exit [ 1, true ]
